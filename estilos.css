@@ -1,0 +1,100 @@
+
+
+
+
+
+ /* Navbar */
+
+#btn-AI {
+  background: transparent;
+  border: 2px solid;
+  border-image: linear-gradient(to bottom right, blue, pink);
+  border-image-slice: 1;
+  border-image-width: 2px;
+  border-image-repeat: stretch;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+#btn-AI:hover {
+  background: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+
+
+/* Articulos */
+
+
+#ContainerProducts{
+    padding-top: 50px;
+}
+
+#ContainerProducts.img{
+    object-fit: cover;
+    width: 50px;
+}
+
+#DescricionIntel{
+    background-image: url('images/FondoIntel.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 40px;
+}
+
+#DescricionIntel h2 {
+    padding: 60px 20px 0px 20px;
+    color: whitesmoke;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+}
+
+#DescricionIntel p {
+    max-width: 680px;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+#ImagenesIntelGeneraciones{
+    align-self: center; 
+    margin-left: 50px;
+}
+
+#DescricionAmd{
+    background-image: url('images/amd\ fondo.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100%;
+}
+
+#DescricionAmd h2 {
+    padding: 60px 20px 0px 20px;
+    color: whitesmoke;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+}
+
+#DescricionAmd p {
+    max-width: 680px;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+
+/* Footer */
+
+#footer{
+    color: white;
+    height: 200PX;
+}
+
+#container-footer{
+    display: flex; 
+    justify-content: center;
+}

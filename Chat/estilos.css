@@ -1,0 +1,141 @@
+body{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url(assets/fondoChat.jpg);
+    background-size: cover; 
+    
+
+}
+
+
+
+/* Estilos para el scroll */
+::-webkit-scrollbar {
+    width: 10px; /* Ancho del scroll */
+    
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #5555552c; /* Color del fondo del scroll */
+    border-radius: 15px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Color del thumb del scroll */
+    border-radius: 15px;
+
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #bbb8b8; /* Color del thumb del scroll en hover */
+  }
+
+
+#nav a{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#btn-iniciar{
+    background: transparent;
+    border: 2px solid;
+    border-image: linear-gradient(to bottom right, blue, pink);
+    border-image-slice: 1;
+    border-image-width: 2px;
+    border-image-repeat: stretch;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    transition: background 0.3s ease;
+    font-weight: bold;
+}
+
+#btn-iniciar:hover {
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+  }
+  
+
+#Chat-mensajes{
+    color: rgb(255, 255, 255); 
+    height: 500px;
+    background-color: rgb(44, 44, 44);
+    border-radius: 15px;
+    overflow-y: auto;
+}
+
+#Input-text{
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    margin-top: 30px;
+}
+
+#button-send{
+    margin-top: 30px;
+    border: none;
+    background: rgba(116, 116, 116, 0.2);
+}
+
+.chat-container {  
+    border-radius: 4px;
+    padding: 10px;
+    max-height: 700px;
+  }
+
+  .message {
+    padding: 8px;
+    border-radius: 4px;
+    word-wrap: break-word;
+    flex-wrap: wrap;
+  }
+
+  .user-message {
+    background-color: rgb(102, 102, 102);
+    margin: 15px;
+    max-width: 40%;
+    margin-left: 60%;
+  }
+
+  .bot-message {
+    background-color: rgb(53, 53, 53);
+    margin: 15px;
+  }
+  
+@media (max-width: 850px){
+   
+    #Chat-mensajes{
+        height: 495px;
+    }
+
+    #chatIntroducion{
+        width: 100%;
+        color: white;
+        padding: 30px;
+    }
+   
+    #containerChatIntroducion{
+        height: 550px;
+        padding-top: 100px;
+    }
+}
+
+@media (min-width: 850px){
+    
+    #containerChatIntroducion{
+        height: 900px;
+        padding-top: 200px;
+    }
+    
+    #chatIntroducion{
+        width: 60%;
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    } 
+
+   
+}

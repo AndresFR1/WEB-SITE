@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+</head>
+<body class="">
+   
+    <nav class="navbar navbar-expand-lg bg-body-tertiary " id="nav">
+        <div class="container-fluid " style="width: 50%;">
+          <a class="navbar-brand" href="#">NovaGaming</a>
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              <a class="nav-link" href="#">Support</a> 
+            </div>
+          </div>
+        </div>
+        </div>
+    </nav>
+   
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <div id="containerChatIntroducion" style="text-align: center; display: flex; flex-direction: column; align-items: center;">
+            <h1 style="color: white; ">Chat Introduccion</h1>
+            <p id="chatIntroducion" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sed, officiis expedita sit, temporibus animi fugiat repellendus quos vitae similique accusantium corporis ea ut impedit, consequuntur aliquam? Distinctio, vel ipsum.</p>
+            <a href="#Chat-mensajes">
+              <button id="btn-iniciar">INICIAR</button>
+            </a>
+          </div>
+          <div class="chat-container">
+            <div class="chat-messages" id="Chat-mensajes">
+              <!-- Aquí se mostrarán los mensajes -->
+            </div>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Escribe tu mensaje" aria-label="Escribe tu mensaje" aria-describedby="button-send" id="Input-text" required>
+              <button class="btn btn-success" type="button" id="button-send">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+   
+    <!-- <header class="site-header sticky-top py-1" id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark container d-flex flex-column flex-md-row justify-content-between" style="width: 50%;">
+          <a class="py-2" href="#" aria-label="Product">
+            <h3>NovaGaming</h3>
+          </a>
+          <div class="collapse navbar-collapse">
+            <ul class="nav-item">
+                <a class="py-2 nav-link" href="#" style="margin-right: 30px;">Tour</a>
+                <a class="py-2 " href="#" >Product</a>
+            </ul>
+          </div>
+        </nav>
+      </header> -->
+
+
+      <script src="../js/bootstrap.bundle.min.js"></script>
+      <script src="messages.js"></script>
+
+</body>
+</html>
